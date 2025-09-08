@@ -50,7 +50,7 @@ plotly==5.22.0
 
 ```
 # Clonar o repositório
-git clone https://github.com/seu-usuario/SolarPV-Analytics-Simulator.git
+git clone https://github.com/seu-usuario/SolarPV-Analytics-Simulator.git 
 cd SolarPV-Analytics-Simulator
 
 # Criar e ativar ambiente virtual
@@ -66,6 +66,7 @@ python -m venv venv
 pip install -r requirements.txt
 
 # Executar o app Streamlit
+ python -m streamlit run SolarPV-Analytics-Simulator/LIB/app.py
 streamlit run app.py
 ```
 
